@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where are you from?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0E15;--card:#111824;--border:#222D40;--border-hover:#3A4A66;
+    --text:#EEF2F8;--muted:#A3AFC4;--subtle:#8E9BB2;--faint:#7C889E;
+    --accent:#2563EB;--accent-text:#6FA8FF;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .page{min-height:100vh;display:flex;flex-direction:column}
+  .wrap{width:100%;max-width:1120px;margin:0 auto;padding-left:24px;padding-right:24px}
+  header{padding-top:24px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px}
+  .logo{width:30px;height:30px;border-radius:8px;background:var(--accent);display:flex;align-items:center;justify-content:center}
+  .meta{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--subtle)}
+  main{flex:1;padding-top:64px;padding-bottom:48px;display:flex;flex-direction:column;gap:40px}
+  .intro{display:flex;flex-direction:column;gap:18px;max-width:640px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-text)}
+  .eyebrow i{width:6px;height:6px;border-radius:3px;background:var(--accent-text)}
+  h1{margin:0;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(40px,7vw,72px);line-height:1.02;letter-spacing:-.03em}
+  .lead{margin:0;font-size:18px;line-height:1.55;color:var(--muted);max-width:460px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+  .opt{text-decoration:none;color:var(--text);background:var(--card);border:1px solid var(--border);border-radius:20px;padding:32px;display:flex;flex-direction:column;gap:28px;transition:transform .18s ease,border-color .18s ease}
+  .opt:hover{transform:translateY(-2px);border-color:var(--border-hover)}
+  .opt:focus-visible{outline:2px solid var(--accent-text);outline-offset:3px}
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+  .copy{display:flex;flex-direction:column;gap:10px}
+  .label{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--subtle)}
+  .title{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;line-height:1.1}
+  .desc{font-size:15px;color:var(--muted)}
+  .flag{flex-shrink:0;border-radius:6px}
+  .globe{width:64px;height:44px;flex-shrink:0;border-radius:6px;background:#17233A;display:flex;align-items:center;justify-content:center;color:#6FB6FF}
+  .cta{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border-radius:12px;font-weight:600;font-size:15px;transition:filter .15s ease}
+  .cta:hover{filter:brightness(1.12)}
+  .cta.primary{background:var(--accent);color:#fff}
+  .cta.secondary{background:#1C2638;border:1px solid #2E3B54;color:var(--text)}
+  .trust{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--subtle)}
+  .trust div{display:flex;align-items:center;gap:8px}
+  footer{padding-top:24px;padding-bottom:24px;border-top:1px solid #1A2232;font-size:12px;color:var(--faint)}
+  @media (max-width:480px){.opt{padding:24px}.title{font-size:26px}main{padding-top:40px}}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="wrap">
+    <div class="brand">
+      <div class="logo">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>
+      </div>
+      <span>Welcome</span>
+    </div>
+    <div class="meta">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+      <span>Secure &amp; private</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="intro">
+      <div class="eyebrow"><i></i><span>Location check</span></div>
+      <h1>Are you from the United States?</h1>
+      <p class="lead">A little about you before we begin. Let us know where you're based so we can show you the right options.</p>
+    </div>
+
+    <div class="grid">
+      <!-- US visitors -->
+      <a class="opt" href="https://www.glowp.site/P2C8M62/BQLDTBL/?source_id=LOCATION">
+        <div class="top">
+          <div class="copy">
+            <span class="label">United States</span>
+            <span class="title">Yes, I'm from the US</span>
+            <span class="desc">I live in the United States.</span>
+          </div>
+          <svg class="flag" width="64" height="44" viewBox="0 0 64 44" aria-hidden="true">
+            <rect width="64" height="44" fill="#fff"/>
+            <g fill="#B22234"><rect y="0" width="64" height="3.4"/><rect y="6.8" width="64" height="3.4"/><rect y="13.6" width="64" height="3.4"/><rect y="20.3" width="64" height="3.4"/><rect y="27.1" width="64" height="3.4"/><rect y="33.9" width="64" height="3.4"/><rect y="40.6" width="64" height="3.4"/></g>
+            <rect width="27" height="23.7" fill="#3C3B6E"/>
+            <g fill="#fff"><circle cx="5" cy="4" r="1.1"/><circle cx="11" cy="4" r="1.1"/><circle cx="17" cy="4" r="1.1"/><circle cx="23" cy="4" r="1.1"/><circle cx="8" cy="9" r="1.1"/><circle cx="14" cy="9" r="1.1"/><circle cx="20" cy="9" r="1.1"/><circle cx="5" cy="14" r="1.1"/><circle cx="11" cy="14" r="1.1"/><circle cx="17" cy="14" r="1.1"/><circle cx="23" cy="14" r="1.1"/><circle cx="8" cy="19" r="1.1"/><circle cx="14" cy="19" r="1.1"/><circle cx="20" cy="19" r="1.1"/></g>
+          </svg>
+        </div>
+        <span class="cta primary">
+          Yes, I'm from the US
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+      </a>
+
+      <!-- Non-US visitors -->
+      <a class="opt" href="https://shop.beacons.ai/hirebird/b116f337-e33c-4241-a32d-3e64bbe42d25?t=1791544127294">
+        <div class="top">
+          <div class="copy">
+            <span class="label">Rest of the world</span>
+            <span class="title">No, I'm from elsewhere</span>
+            <span class="desc">I live outside the United States.</span>
+          </div>
+          <div class="globe">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18"/><path d="M12 3a14 14 0 0 0 0 18"/></svg>
+          </div>
+        </div>
+        <span class="cta secondary">
+          No, I'm from elsewhere
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+      </a>
+    </div>
+
+    <div class="trust">
+      <div>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span>Takes less than 10 seconds</span>
+      </div>
+      <div>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/></svg>
+        <span>We never share your answer</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="wrap">© 2026 [YOUR BRAND]. All rights reserved.</footer>
+</div>
+</body>
+</html>
